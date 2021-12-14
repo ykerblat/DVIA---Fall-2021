@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+@font-face {
+    font-family: 'solanderregular';
+    src: url('solander-webfont.woff2') format('woff2'),
+         url('solander-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zanzabarregular';
+    src: url('zanzabar_d-webfont.woff2') format('woff2'),
+         url('zanzabar_d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arabdancesregular';
+    src: url('arabdances-webfont.woff2') format('woff2'),
+         url('arabdances-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*background-color:#E0A81F;*/
+}
+
+/*@media (max-width:750 px){*/
+
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #2B3272;
+  /*background:#D6AD60;*/
+  background: linear-gradient(to bottom right, #D6AD60, #F4EBD0, #122620);
+}
+    
+.parallax {
+  /* The image used */
+background-image: url("https://images.unsplash.com/photo-1544497309-d05cff20121a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  /*background-image: url("https://cdn.britannica.com/89/94689-050-4C424297/shahadah-call-lines-prayer-Islamic-mosque-calligraphy.jpg");*/
+  /*-webkit-filter: grayscale(100%);*/
+  /*filter: grayscale(100%);*/
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+  #title {
+    padding-top: 300px;
+    /*top: 200px;*/
+    /*color:yellow;*/
+    color:#F4EBD0;
+    font-size:90px;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family:arabdancesregular;
+    text-align: center;
+  }
+  
+  h2{
+    padding-top:20px;
+    padding-bottom:50px;
+    font-size:36px;
+    font-style: oblique;
+    color:black;
+    text-align:center;
+  }
+  
+  p {
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-left: 300px;
+    margin-right:300px;
+    font-size: 20px;
+    font-family: "arial";
+    margin-bottom: 20px;
+  }
+  
+.legendTitle {
+  font-weight: 700;
+}
+
+.legendCells {
+  transform: translateY(5px);
+}
+
+.legendCells .label {
+  fill: #6C698A;
+}
+  
+  
+#asterisk {
+  /*text-transform: lowercase;*/
+  writing-mode: vertical-lr;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.8rem;
+}
+
